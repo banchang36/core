@@ -1,0 +1,9 @@
+{
+  "current_epoch": 12,
+  "train_loss": 0.21510425725056814,
+  "valid_loss": 0.3795346570393396,
+  "valid_accuracy": 0.9536298499391646,
+  "best_epoch": 12,
+  "best_valid_loss": 0.3795346570393396,
+  "best_valid_accuracy": 0.9536298499391646
+}
