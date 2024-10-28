@@ -21,7 +21,7 @@ run_cmd="python train.py \
     --wandb_key $WANDB_KEY \
     --config_path $config_path \
     --num_epochs 50 \
-    --max_len 512 \
+    --max_len 256 \
     --train_batch_size 32 \
     --accumulation_size 1 \
     --valid_batch_size 32 \
