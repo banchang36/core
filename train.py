@@ -14,7 +14,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--config_path", help="path to deepspeed config json", default="./deepspeed_config.json")
     parser.add_argument("--local_rank", type=int, default=-1)
-    parser.add_argument("--max_len", type=int, default=512)
+    parser.add_argument("--max_len", type=int, default=128)
     parser.add_argument("--max_pieces_per_token", type=int, default=5)
     parser.add_argument("--train_batch_size", type=int, required=True)
     parser.add_argument("--accumulation_size", type=int, default=1)
