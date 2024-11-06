@@ -91,7 +91,7 @@ class Seq2EditDataset(Dataset):
                     words = words[:self.max_len]
                     tags = tags[:self.max_len]
 
-                input_ids, offsets = self.tokenizer.encode(words, truncation=True, max_length=self.max_len)
+                input_ids, offsets = self.tokenizer.encode(words)
                 #print("input_ids:", input_ids)
                 instance = self.build_instance(words, input_ids, offsets, tags)
                 #print("instance:", instance)

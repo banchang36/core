@@ -23,6 +23,7 @@ class SeqEncoder(nn.Module):
 
         output_dict = self.matched_embedder(
             input_ids=input_dict["input_ids"],
+            token_type_ids=input_dict["token_type_ids"],
             attention_mask=input_dict["attention_mask"],
         )
         #print("output_dict:",output_dict)
