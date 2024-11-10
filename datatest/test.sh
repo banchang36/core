@@ -11,7 +11,7 @@ python predict.py \
     --batch_size 32 \
     --iteration_count 5 \
     --min_len 3 \
-    --max_len 128 \
+    --max_len 256 \
     --min_error_probability 0.0 \
     --additional_confidence 0.0 \
     --sub_token_mode "average" \
